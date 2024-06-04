@@ -1,0 +1,134 @@
+:root {
+  --accent-color: #f3ff87;
+  --text-color: #f0f4f5;
+  --background-color: #0b002b;}
+
+      
+        body {
+            background-color: black; /* 배경색 지정 */
+            color: white; /* 텍스트 색상 지정 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li:hover {
+            background-color: gray; /* 마우스를 올렸을 때 배경색 변경 */
+        }
+
+       :root {
+  --accent-color: #ff0000; 
+  --text-color: #f0f4f5;
+  --background-color: #0b002b;}
+
+.body {
+  margin: 0;
+  font-family: 'Montserrat';}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 8px 12px;}
+
+.nav_logo {
+  font-size: 24px;
+  color: var(--text-color);}
+
+.nav_logo i {
+  color: var(--accent-color);}
+
+.nav_logo span {
+  color: var(--accent-color);}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;}
+
+.nav_menu li {
+  padding: 8px 12px;}
+
+.nav_menu li:hover {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;}
+
+.nav_menu li a:hover {
+  color: var(--background-color);}
+
+.nav_icons {
+  display: flex;
+  color: #7dc0ff;
+  list-style: none;
+  padding-left: 0;}
+
+  
+        
+        .menu {
+            display: flex; /* Flexbox 사용 */
+            justify-content: space-between; /* 요소 사이에 공간을 균등하게 분배하여 정렬 */
+            padding: 0;
+            list-style-type: none; /* 리스트 스타일 제거 */
+            width: 100%; /* 메뉴를 네비게이션 바의 전체 너비로 설정 */
+        }
+        .menu li {
+            flex: 1; /* 네모칸을 동일한 크기로 설정 */
+            text-align: center; /* 텍스트 가운데 정렬 */
+            padding: 20px; /* 내부 여백 */
+            border: 1px solid white; /* 테두리 추가 */
+            margin: 0 5px; /* 네모칸 사이 간격 */
+          
+            box-sizing: border-box; /* 패딩과 테두리를 크기에 포함 */
+            transition: background-color 0.3s; /* 배경색 변경 시 애니메이션 효과 */
+        }
+        .menu li:hover {
+            background-color: gray; /* 마우스를 올렸을 때 배경색 변경 */
+        }
+        .menu li a {
+            color: white; /* 링크 텍스트 색상 */
+            text-decoration: none; /* 링크 밑줄 제거 */
+            display: block; /* a 태그를 블록 요소로 변환 */
+        }
+.image-container {
+    display: flex; /* Flexbox 사용 */
+    justify-content: space-between; /* 요소 사이에 공간을 균등하게 분배하여 정렬 */
+}
+.image-container img {
+    width: 200px; /* 이미지의 너비 */
+    height: auto; /* 이미지의 높이 자동으로 조정 */
+    margin-right: 20px; /* 오른쪽 여백(간격) */
+}
+/* 마지막 이미지의 오른쪽 여백 제거 */
+.image-container img:last-child {
+    margin-right: 0;
+}
+.content-item {
+    display: flex; /* Flexbox 사용 */
+    align-items: flex-start; /* 내용의 상단 정렬 */
+    margin-bottom: 20px; /* 아래 여백 */
+}
+.content-item img {
+    width: 200px; /* 이미지의 너비 */
+    height: auto; /* 이미지의 높이 자동으로 조정 */
+    margin-right: 20px; /* 오른쪽 여백 */
+}
+
+ /* 이미지박스설정 */
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      /* 이미지사이즈 설정 */
+     
+      .aa1 {
+        text-align: center;
+      }
+  </body>
