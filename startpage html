@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  
+  <body>
+ <nav class="navbar">
+      <div class="nav_logo">
+        <a href="#" class="home-icon">🏠</a>
+      </div>
+      <ul class="nav_menu">
+        <li><a href="">홈</a></li>
+        <li><a href="https://jsbin.com/pavuyey">영화</a></li>
+            <li><a href="https://jsbin.com/dowuhor/18">드라마</a></li>
+            <li><a href="https://jsbin.com/livinug/2">뮤지컬</a></li>
+            <li><a href="https://jsbin.com/yamaduyeso/1">애니메이션</a></li>
+      </ul>
+
+    </nav>
+
+
+    <!-- 메인 콘텐츠 -->
+      <h1 class = "aa1">추천작</h1>
+    <div class="image-container">
+      
+        <img src="https://i.imgur.com/zAryk3e.jpg" onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)" alt="영화">
+        <img src="https://i.imgur.com/4qndC9G.jpg" onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"alt="드라마">
+        <img src="https://i.imgur.com/5zVWGI8.jpg" onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"alt="뮤지컬">
+        <img src="https://i.ibb.co/YtHCR6n/image.jpg" onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"alt="애니메이션">
+    </div>
+
+    <section class="main-content">
+        <h2>인기 있는 콘텐츠</h2>
+      
+        <div class="content-grid">
+          
+            <div class="content-item">
+                <img src="https://i.imgur.com/poMCM7z.jpg" alt="선재 업고 튀어">
+                  <div>
+                    <h3>선재 업고 튀어</h3>
+                    <p>만약, 당신의 최애를 구할 수 있는 기회가 온다면? 삶의 의지를 놓아버린 순간, 자신을 살게 해줬던 유명 아티스트 "류선재". <br>그의 죽음으로 절망했던 열성팬 "임솔"이 최애를 살리기 위해 시간을 거슬러 2008년으로 돌아간다! 다시 살게 된 열아홉, 목표는 최애 류선재를 지키는 것!</p>
+                  </div>
+            </div>
+          
+            <div class="content-item">
+                <img src="https://i.imgur.com/k2LmejS.jpg" alt="영화 2">
+               <div>
+                <h3>파묘</h3>
+                <p>미국 LA, 거액의 의뢰를 받은 무당 ‘화림’(김고은)과 ‘봉길’(이도현)은 기이한 병이 대물림되는 집안의 장손을 만난다. <br>조상의 묫자리가 화근임을 알아챈 ‘화림’은 이장을 권하고, 돈 냄새를 맡은 최고의 풍수사 ‘상덕’(최민식)과 장의사 ‘영근’(유해진)이 합류한다. <br>“전부 잘 알 거야… 묘 하나 잘못 건들면 어떻게 되는지” 절대 사람이 묻힐 수 없는 악지에 자리한 기이한 묘. <br>‘상덕’은 불길한 기운을 느끼고 제안을 거절하지만, ‘화림’의 설득으로 결국 파묘가 시작되고… 나와서는 안될 것이 나왔다.</p>
+               </div>
+            </div>
+          
+           <div class="content-item">
+                <img src="tvshow1.jpg" alt="TV 프로그램 1">
+               <div>
+                <h3>TV 프로그램 제목</h3>
+                <p> TV 프로그램 설명이 여기에 들어갑니다.</p>
+               </div>
+            </div>
+            <!-- 더 많은 콘텐츠 아이템들 -->
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <p>© 2024 KAYWON OTT.고명선 권지윤 문지연 신연주 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
